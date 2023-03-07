@@ -6,6 +6,7 @@ export const colors = {
       muted: "#C6DAF7",
       navy: "#153f64",
       green: "#00CCBB",
+      black: 'black',
     },
     ui: {
       navy: "#153f64",

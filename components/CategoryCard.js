@@ -11,9 +11,10 @@ const StyledImage = styled(Image)`
 `
 const StyledText = styled(Text)`
     position: absolute;
-    top: 50px;
+    top: 10px;
     left: 10px;
-    color: #fff;
+    color: white;
+    font-weight:900;
 `
 export const CategoryCard = ({ imgUrl, title }) => {
     return (

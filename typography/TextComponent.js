@@ -20,8 +20,6 @@ const hint = (theme) => `
     font-size: ${theme.fontSizes.body};
     color: ${theme.colors.brand.navy}
     font-weight: ${theme.fontWeights.bold};
-
-
 `;
 
 const error = (theme) => `
@@ -44,7 +42,16 @@ const green = (theme) => `
     color: ${theme.colors.text.green};
     font-family: ${theme.fonts.body};
     font-size: ${theme.fontSizes.body};
+`;
+const heading = (theme) => `
+    color: ${theme.colors.ui.aqua};
+    font-family: ${theme.fonts.body};
+    font-size: ${theme.fontSizes.h5};
     font-weight: ${theme.fontWeights.bold};
+`;
+const simple = (theme) => `
+color: ${theme.colors.text.secondary};
+font-family: ${theme.fonts.body};
 `;
 const variants = {
   body,
@@ -52,7 +59,9 @@ const variants = {
   caption,
   error,
   hint,
-  green
+  green,
+  simple,
+  heading
 };
 
 export const Text = styled.Text`

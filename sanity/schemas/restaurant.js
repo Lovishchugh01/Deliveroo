@@ -1,7 +1,7 @@
 import {defineField, defineType} from 'sanity'
 
 export default defineType({
-  name: 'restaurant',
+  name: 'restaurants',
   title: 'Restaurant',
   type: 'document',
 
@@ -20,7 +20,7 @@ export default defineType({
     },
     {
       name: 'image',
-      title: 'Image pf restaurant',
+      title: 'Image of restaurant',
       type: 'image',
       
     },
